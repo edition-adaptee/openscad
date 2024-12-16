@@ -1,3 +1,3 @@
 // crocodile
 
-include <croco.svg>
+import ("croco.svg") ;
