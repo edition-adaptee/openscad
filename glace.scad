@@ -20,5 +20,5 @@ for (z = [0:72])
 color_this("white")
 sweep(shape2, transforms);
 
-linear_sweep(circle(10), -10, scale = 0.8);
+color_this("violet")linear_sweep(circle(10), -10, scale = 0.8);
 rotate_sweep(xmove(10, circle(0.5)));
