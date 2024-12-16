@@ -8,5 +8,5 @@ include <shapes3d.scad>
 // import ("croco.svg") ;
 
 
-prismoid (size1=[10,10], size2[0,0],h=10);
+prismoid (size1=[10,5], size2=[0,0],h=10, rounding1=0, rounding2=20);
 
