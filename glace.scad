@@ -18,10 +18,7 @@ for (z = [0:72])
 
 // Servi dans un pot! Bon appétit!
 color_this("white")
-sweep(shape2, transforms) {
-    color_this("red")
-    position(BOTTOM) {
-        linear_sweep(circle(10), -10, scale = 0.8);
-        rotate_sweep(xmove(10, circle(0.5)));
-    }
-}
+sweep(shape2, transforms);
+
+linear_sweep(circle(10), -10, scale = 0.8);
+rotate_sweep(xmove(10, circle(0.5)));
