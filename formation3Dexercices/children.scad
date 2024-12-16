@@ -1,7 +1,7 @@
 module test (){
     rotate ([45,45,0])children(0);
     translate([20,0,0])children(1);
-    rotate ([45,45,0]) translate([20,0,0])children(1);
+    rotate ([45,45,0]) translate([40,0,0])children(1);
 }
 
 test (){
